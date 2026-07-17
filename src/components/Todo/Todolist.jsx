@@ -11,7 +11,6 @@ function TodoList({ todos }) {
           <p>Date: {todo.date}</p>
 
           {todo.attachment && <p>Attachment: {todo.attachment.name}</p>}
-          
         </div>
       ))}
     </div>

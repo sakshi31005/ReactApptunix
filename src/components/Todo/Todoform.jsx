@@ -46,7 +46,9 @@ function TodoForm({ addTodo }) {
 
           <input
           className="border-2 w-auto cursor-pointer"
-          type="file" onChange={(e) => setAttachment(e.target.files[0])} />
+          type="file"
+          value={files}
+          onChange={(e) => setAttachment(e.target.files[0])} />
 
           <button className="outline-none bg-pink-600 px-3 py-0.5 shrink-0 text-white cursor-pointer"
            type="submit"> + add your task </button>
