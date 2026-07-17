@@ -71,7 +71,6 @@ function App() {
     <div className="min-h-screen from-pink-100 via-purple-100 to-indigo-100 px-4 py-8 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-5xl">
         
-
         <header className="mb-10 text-center">
           <h1 className="text-4xl font-extrabold tracking-tight text-gray-800 sm:text-5xl">
             My Todo App
@@ -80,7 +79,12 @@ function App() {
 
         <main className="rounded-3xl border border-white/60 bg-white/70 p-4 shadow-2xl backdrop-blur-md sm:p-6 lg:p-8">
           <div className="mb-8">
-           
+            <label
+              htmlFor="search"
+              className="mb-2 block text-sm font-semibold text-gray-700"
+            >
+              Search your todos
+            </label>
 
             <div className="relative">
               <input
